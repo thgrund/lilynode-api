@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-",
+  "version": "0.0.1",
+  "description": "Express based lilypond api for nodejs",
+  "author": "Thomas Grund https://github.com/thgrund",
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "bluebird": "^3.5.3",
+    "body-parser": "*",
+    "cors": "^2.8.4",
+    "ejs": "*",
+    "express": "*",
+    "multer": "^1.4.2",
+    "shell-exec": "^1.0.2",
+    "spawn-promise": "^0.1.8",
+    "sqlite": "*"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thgrund/lilynode-api/issues"
+  },
+  "repository": "https://github.com/thgrund/lilynode-api"
+}
