@@ -36,7 +36,7 @@ class Controller {
   };
 
 
-  static createModel = req => {
+  static createModel (req) {
     let model = new Model();
     model.format = req.body.format;
     model.content = req.body.content;
