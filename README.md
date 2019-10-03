@@ -38,11 +38,11 @@ Example: /files/Songtitle/Chorus/Chorus.ly
 
 |HTTP Method | Route | Body | Description  |
 |-----|----------------------|------|-----------------|
-| GET | /ly-converter | format=png| Convert ly file to png|
-| GET | /ly-converter | format=svg | Convert ly file to svg|
-| GET | /ly-converter | format=midi | Convert ly file to midi |
-| GET | /ly-converter | format=png | Convert ly file to pdf |
-| GET | /midi-converter/ly | Convert midi to ly file |
+| GET | /ly-converter | format=png&content={ly code}| Convert ly file to png|
+| GET | /ly-converter | format=svg&content={ly code} | Convert ly file to svg|
+| GET | /ly-converter | format=midi&content={ly code} | Convert ly file to midi |
+| GET | /ly-converter | format=png&content={ly code} | Convert ly file to pdf |
+| GET | /midi-converter/ly | midi={binary midi file} | Convert midi to ly file |
 
 ## Sources
 - 10 Best Practices for Better RESTful API: https://medium.com/@mwaysolutions/10-best-practices-for-better-restful-api-cbe81b06f291
